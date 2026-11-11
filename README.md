@@ -155,7 +155,7 @@ python waec_analysis.py
 
 **Step 5 — Open the dashboard**
 
-Open the generated `waec_dashboard.html` file in any modern browser (Chrome, Edge or Firefox recommended).
+Open the generated `index.html` file in any modern browser (Chrome, Edge or Firefox recommended).
 
 ---
 
@@ -165,7 +165,7 @@ Open the generated `waec_dashboard.html` file in any modern browser (Chrome, Edg
 waec-dashboard/
 │
 ├── waec_analysis.py           # Python data cleaning and HTML generation script
-├── index.html                 # Generated dashboard (committed for GitHub Pages)
+├── index.html                 # Generated dashboard (served by GitHub Pages)
 ├── WAEC_STATISTICS_2019-2021.xlsx  # Source dataset (NBS — not included in repo)
 └── README.md                  # Project documentation
 ```
@@ -193,5 +193,5 @@ This project uses publicly available data published by the **National Bureau of 
 
 ## Author
 
-**gre-eng**
+**Gregory Patrick Umoh**
 [github.com/gre-eng](https://github.com/gre-eng)
