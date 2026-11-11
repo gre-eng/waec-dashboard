@@ -4,10 +4,14 @@
 ![Python](https://img.shields.io/badge/Data%20Pipeline-Python%20%2F%20Pandas-blue)
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen)
 ![Data Source](https://img.shields.io/badge/Data%20Source-NBS%20Nigeria-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+[![DOI](https://zenodo.org/badge/1264381214.svg)](https://doi.org/10.5281/zenodo.24147242)
 
 A sleek, fully interactive web dashboard that cleans, analyses and visualises West African Examinations Council (WAEC) school candidate statistics for Nigeria from 2019 to 2021. Built with Python for data processing and pure HTML/CSS/JavaScript for the front end — no frameworks, no dependencies beyond Chart.js.
 
 **Live App →** [https://gre-eng.github.io/waec-dashboard/](https://gre-eng.github.io/waec-dashboard/)
+
+**DOI →** [https://doi.org/10.5281/zenodo.24147242](https://doi.org/10.5281/zenodo.24147242)
 
 ---
 
@@ -21,6 +25,10 @@ A sleek, fully interactive web dashboard that cleans, analyses and visualises We
 - [How to Run](#how-to-run)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
+- [Data Source](#data-source)
+- [Cite This Work](#cite-this-work)
+- [Licence](#licence)
+- [Author](#author)
 
 ---
 
@@ -167,6 +175,8 @@ waec-dashboard/
 ├── waec_analysis.py           # Python data cleaning and HTML generation script
 ├── index.html                 # Generated dashboard (served by GitHub Pages)
 ├── WAEC_STATISTICS_2019-2021.xlsx  # Source dataset (NBS — not included in repo)
+├── LICENSE                    # MIT Licence
+├── CITATION.cff               # Citation metadata
 └── README.md                  # Project documentation
 ```
 
@@ -188,6 +198,22 @@ waec-dashboard/
 ## Data Source
 
 This project uses publicly available data published by the **National Bureau of Statistics (NBS)** of Nigeria in partnership with the **West African Examinations Council (WAEC)**.
+
+---
+
+## Cite This Work
+
+If you use this dashboard, please cite it using the DOI:
+
+Umoh, G. P. (2026). *WAEC Nigeria — WASSCE Statistics Dashboard (2019–2021)* [Software]. Zenodo. https://doi.org/10.5281/zenodo.24147242
+
+A `CITATION.cff` file is included in this repository.
+
+---
+
+## Licence
+
+The code in this repository is released under the MIT Licence (see `LICENSE`). The underlying NBS/WAEC data is not covered by this licence and remains subject to its source's terms.
 
 ---
 
