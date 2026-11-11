@@ -1,1 +1,9 @@
-
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "WAEC Dashboard"
+version: 1.0.0
+repository-code: "https://github.com/gre-eng/waec-dashboard"
+url: "https://gre-eng.github.io/waec-dashboard/"
+authors:
+  - family-names: "Umoh"
+    given-names: "Gregory"
