@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "WAEC Dashboard"
+title: "WAEC Nigeria — WASSCE Statistics Dashboard (2019–2021)"
 version: 1.0.1
 license: MIT
 repository-code: "https://github.com/gre-eng/waec-dashboard"
@@ -8,4 +8,4 @@ url: "https://gre-eng.github.io/waec-dashboard/"
 doi: "10.5281/zenodo.24147242"
 authors:
   - family-names: "Umoh"
-    given-names: "Gregory"
+    given-names: "Gregory Patrick"
